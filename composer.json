@@ -32,8 +32,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "BultonFr\\Annotation\\Test\\Functional": "test/Functional",
-            "BultonFr\\Annotation\\Test\\Unit": "test/Unit"
+            "BultonFr\\Annotation\\Test\\Functional\\": "test/Functional",
+            "BultonFr\\Annotation\\Test\\Unit\\": "test/Unit"
         }
     }
 }
