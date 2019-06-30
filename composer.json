@@ -1,0 +1,39 @@
+{
+    "name": "bulton-fr/annotation",
+    "type": "library",
+    "description": "Annotation parser system",
+    "homepage": "https://github.com/bulton-fr/annotation",
+    "time": "2019-06-15",
+    "license": "LGPL-3.0",
+    "authors": [
+        {
+            "name": "Vermeulen Maxime / Bulton",
+            "homepage": "http://www.bulton.fr",
+            "email": "bulton.fr@gmail.com"
+        }
+    ],
+    "support": {
+        "email": "support@bulton.fr",
+        "issues": "https://github.com/bulton-fr/annotation/issues",
+        "source": "https://github.com/bulton-fr/annotation"
+    },
+    "require": {
+        "php": "^7.2.0"
+    },
+    "require-dev": {
+        "bulton-fr/utils": "~1.0",
+        "atoum/atoum": "~3.3",
+        "atoum/visibility-extension": "~1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "BultonFr\\Annotation\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BultonFr\\Annotation\\Test\\Functional": "test/Functional",
+            "BultonFr\\Annotation\\Test\\Unit": "test/Unit"
+        }
+    }
+}
